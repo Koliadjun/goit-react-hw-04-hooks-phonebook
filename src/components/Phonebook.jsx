@@ -8,8 +8,9 @@ import Filter from './Filter/Filter';
 import ContactList from './ContactList/ContactList';
 function Phonebook() {
   const [contactData, setContactData] = useState(
-    () => JSON.parse(window.localStorage.getItem('contacts')) ?? [],
+    JSON.parse(window.localStorage.getItem('contacts')) ?? [],
   );
+
   const [filter, setFilter] = useState('');
 
   useEffect(() => {
