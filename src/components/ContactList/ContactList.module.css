@@ -1,0 +1,31 @@
+.list {
+  margin: 20px;
+}
+.item {
+  margin: 10px;
+}
+.item span {
+  margin-left: 5px;
+}
+.button {
+  padding: 2px 5px;
+  margin-left: 5px;
+
+  font-size: 12px;
+  font-weight: 500;
+
+  border-radius: 5px;
+  border: 1px solid #ccc;
+
+  background-color: #fff;
+  cursor: pointer;
+
+  transition: all ease 500ms;
+}
+.button:hover,
+.button:focus {
+  background-color: red;
+  color: #fff;
+
+  border-color: red;
+}

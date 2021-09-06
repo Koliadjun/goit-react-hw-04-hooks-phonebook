@@ -1,0 +1,11 @@
+.label {
+  display: flex;
+  margin-bottom: 5px;
+}
+.input {
+  margin-bottom: 10px;
+}
+.input:focus,
+.input:hover {
+  outline-color: blueviolet;
+}

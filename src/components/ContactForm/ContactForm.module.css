@@ -1,0 +1,21 @@
+.form {
+  border: 1px solid black;
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.form label,
+.form input {
+  margin: 5px;
+  max-width: 200px;
+}
+.form button {
+  max-width: 150px;
+  margin: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
