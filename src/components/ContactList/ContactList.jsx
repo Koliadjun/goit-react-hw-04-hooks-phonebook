@@ -4,12 +4,9 @@ import PropTypes from 'prop-types';
 import s from './ContactList.module.css';
 
 function ContactList({ contacts, onClick }) {
-  const [contactsArray, setContactsArray] = useState([]);
-  setContactsArray(contacts);
-
   return (
     <ul className={s.list}>
-      {contactsArray.map(contact => (
+      {contacts.map(contact => (
         <li className={s.item} key={contact.id}>
           {contact.name}:<span>{contact.number}</span>
           <button
