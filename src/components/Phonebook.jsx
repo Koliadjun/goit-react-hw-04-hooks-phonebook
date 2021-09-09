@@ -28,6 +28,7 @@ function Phonebook() {
       setContactData(prevState => [...prevState, data]);
     }
   };
+
   const listDeleteHandler = id => {
     setContactData(contactData.filter(item => id !== item.id));
   };
